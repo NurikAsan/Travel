@@ -1,0 +1,6 @@
+{% extends "base.html" %}
+{% block title%}Удаление Поезда {% endblock%}
+{% block content %}
+<p>Удалить "{{ object }}"?</p>
+{% include 'trains/forms.html' with val='Удалить' %} 
+{% endblock%}
